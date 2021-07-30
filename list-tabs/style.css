@@ -1,0 +1,52 @@
+html * {
+  font-family: Verdana;
+  font-size: small;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+
+table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.header {
+  background-color: #E8E8E8;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+tr.tab:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.separator {
+  background-color: #F0F0F0;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+td.tab {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+a.tabURL {
+  font-family: consolas, monospace;
+  font-weight: normal;
+  color: blue;
+  text-decoration: none;
+}
+
+.cellButton {
+  display: block;
+  width: 100%;
+}
