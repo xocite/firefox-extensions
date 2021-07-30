@@ -1,7 +1,4 @@
-# -*- Mode: Makefile -*-
-#
-# Makefile for Undo Close Tab
-#
+# Makefile Close Tab
 
 FILES = manifest.json \
         background.js \

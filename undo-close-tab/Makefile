@@ -1,7 +1,5 @@
-# -*- Mode: Makefile -*-
-#
 # Makefile for Undo Close Tab
-#
+
 
 FILES = manifest.json \
         storage.js \
